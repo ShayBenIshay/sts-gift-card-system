@@ -1,0 +1,14 @@
+# Normalize line endings to LF in the repo; checkout as-is on all platforms
+* text=auto eol=lf
+*.php text eol=lf
+*.css text eol=lf
+*.js  text eol=lf
+*.md  text eol=lf
+
+# Binary files — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary

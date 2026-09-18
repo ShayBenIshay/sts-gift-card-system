@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# WordPress
+*.log
+wp-config.php
+
+# Dependencies (if added later)
+vendor/
+node_modules/
+
+# Build artifacts
+*.pot
+*.mo
